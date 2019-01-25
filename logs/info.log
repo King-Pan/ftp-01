@@ -1,0 +1,114 @@
+2019-01-25 15:46:04.228 INFO  com.asiainfo.ftp01.Ftp01Application Line:48  - Starting Ftp01Application on DESKTOP-KVT3N4R with PID 18616 (C:\Users\pansf\Documents\GitHub\ftp-01\target\classes started by pansf in C:\Users\pansf\Documents\GitHub\ftp-01)
+2019-01-25 15:46:04.230 INFO  com.asiainfo.ftp01.Ftp01Application Line:597 - The following profiles are active: prod
+2019-01-25 15:46:04.268 INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext Line:583 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3384fc80: startup date [Fri Jan 25 15:46:04 CST 2019]; root of context hierarchy
+2019-01-25 15:46:05.512 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:327 - Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$bf52f76f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-25 15:46:05.835 INFO  org.apache.camel.impl.converter.DefaultTypeConverter Line:66  - Type converters loaded (core: 192, classpath: 1)
+2019-01-25 15:46:06.319 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:58  - LiveReload server is running on port 35729
+2019-01-25 15:46:06.395 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:431 - Registering beans for JMX exposure on startup
+2019-01-25 15:46:06.418 INFO  org.apache.camel.spring.boot.RoutesCollector Line:276 - Loading additional Camel XML routes from: classpath:camel/*.xml
+2019-01-25 15:46:06.419 INFO  org.apache.camel.spring.boot.RoutesCollector Line:290 - Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+2019-01-25 15:46:06.424 INFO  org.apache.camel.spring.SpringCamelContext Line:3146 - Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2019-01-25 15:46:06.426 INFO  org.apache.camel.management.ManagedManagementStrategy Line:205 - JMX is enabled
+2019-01-25 15:46:06.616 INFO  org.apache.camel.spring.SpringCamelContext Line:3466 - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2019-01-25 15:46:06.625 INFO  org.apache.camel.component.file.remote.FtpEndpoint Line:109 - Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2019-01-25 15:46:06.625 INFO  org.apache.camel.component.file.remote.FtpEndpoint Line:115 - Using default memory based idempotent repository with cache max size: 1000
+2019-01-25 15:46:06.667 INFO  org.apache.camel.spring.boot.RoutesCollector Line:188 - Starting CamelMainRunController to ensure the main thread keeps running
+2019-01-25 15:46:49.689 INFO  org.apache.camel.spring.SpringCamelContext Line:4026 - Route: route1 started and consuming from: ftp://172.16.240.28:21/ftpc/ftpc270/outgoing?binary=true&delay=10s&fileExist=Ignore&filter=%23ftpDownloadFileFilter&localWorkDirectory=%2Fdata%2Fchenjiangtao%2Fftp-data-temp%2F&noop=true&passiveMode=true&password=xxxxxx&recursive=true&stepwise=false&username=ftpc270
+2019-01-25 15:46:49.689 INFO  org.apache.camel.spring.SpringCamelContext Line:3195 - Total 1 routes, of which 1 are started
+2019-01-25 15:46:49.690 INFO  org.apache.camel.spring.SpringCamelContext Line:3207 - Apache Camel 2.20.1 (CamelContext: camel-1) started in 43.266 seconds
+2019-01-25 15:46:49.697 INFO  com.asiainfo.ftp01.Ftp01Application Line:57  - Started Ftp01Application in 45.851 seconds (JVM running for 47.64)
+2019-01-25 15:48:19.885 INFO  com.asiainfo.ftp01.Ftp01Application Line:48  - Starting Ftp01Application on DESKTOP-KVT3N4R with PID 28796 (C:\Users\pansf\Documents\GitHub\ftp-01\target\classes started by pansf in C:\Users\pansf\Documents\GitHub\ftp-01)
+2019-01-25 15:48:19.886 INFO  com.asiainfo.ftp01.Ftp01Application Line:597 - The following profiles are active: prod
+2019-01-25 15:48:19.923 INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext Line:583 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3357b13d: startup date [Fri Jan 25 15:48:19 CST 2019]; root of context hierarchy
+2019-01-25 15:48:21.179 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:327 - Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$47b47161] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-25 15:48:21.493 INFO  org.apache.camel.impl.converter.DefaultTypeConverter Line:66  - Type converters loaded (core: 192, classpath: 1)
+2019-01-25 15:48:21.980 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:58  - LiveReload server is running on port 35729
+2019-01-25 15:48:22.056 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:431 - Registering beans for JMX exposure on startup
+2019-01-25 15:48:22.079 INFO  org.apache.camel.spring.boot.RoutesCollector Line:276 - Loading additional Camel XML routes from: classpath:camel/*.xml
+2019-01-25 15:48:22.080 INFO  org.apache.camel.spring.boot.RoutesCollector Line:290 - Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+2019-01-25 15:48:22.086 INFO  org.apache.camel.spring.SpringCamelContext Line:3146 - Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2019-01-25 15:48:22.088 INFO  org.apache.camel.management.ManagedManagementStrategy Line:205 - JMX is enabled
+2019-01-25 15:48:22.271 INFO  org.apache.camel.spring.SpringCamelContext Line:3466 - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2019-01-25 15:48:22.321 INFO  org.apache.camel.spring.boot.RoutesCollector Line:188 - Starting CamelMainRunController to ensure the main thread keeps running
+2019-01-25 15:48:43.787 INFO  com.asiainfo.ftp01.Ftp01Application Line:48  - Starting Ftp01Application on DESKTOP-KVT3N4R with PID 26756 (C:\Users\pansf\Documents\GitHub\ftp-01\target\classes started by pansf in C:\Users\pansf\Documents\GitHub\ftp-01)
+2019-01-25 15:48:43.789 INFO  com.asiainfo.ftp01.Ftp01Application Line:597 - The following profiles are active: prod
+2019-01-25 15:48:43.834 INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext Line:583 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7616da77: startup date [Fri Jan 25 15:48:43 CST 2019]; root of context hierarchy
+2019-01-25 15:48:45.361 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:327 - Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$8a43a8d4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-25 15:48:45.771 INFO  org.apache.camel.impl.converter.DefaultTypeConverter Line:66  - Type converters loaded (core: 192, classpath: 1)
+2019-01-25 15:48:46.450 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:58  - LiveReload server is running on port 35729
+2019-01-25 15:48:46.687 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:431 - Registering beans for JMX exposure on startup
+2019-01-25 15:48:46.715 INFO  org.apache.camel.spring.boot.RoutesCollector Line:276 - Loading additional Camel XML routes from: classpath:camel/*.xml
+2019-01-25 15:48:46.716 INFO  org.apache.camel.spring.boot.RoutesCollector Line:290 - Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+2019-01-25 15:48:46.722 INFO  org.apache.camel.spring.SpringCamelContext Line:3146 - Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2019-01-25 15:48:46.724 INFO  org.apache.camel.management.ManagedManagementStrategy Line:205 - JMX is enabled
+2019-01-25 15:48:46.952 INFO  org.apache.camel.spring.SpringCamelContext Line:3466 - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2019-01-25 15:48:47.007 INFO  org.apache.camel.spring.boot.RoutesCollector Line:188 - Starting CamelMainRunController to ensure the main thread keeps running
+2019-01-25 15:49:30.046 INFO  org.apache.camel.spring.SpringCamelContext Line:4026 - Route: route1 started and consuming from: ftp://172.16.240.28:21/ftpc/ftpc270/outgoing?binary=true&delay=10s&filter=%23ftpDownloadFileFilter&localWorkDirectory=%2Fdata%2Fchenjiangtao%2Fftp-data-temp%2F&passiveMode=true&password=xxxxxx&username=ftpc270
+2019-01-25 15:49:30.048 INFO  org.apache.camel.spring.SpringCamelContext Line:3195 - Total 1 routes, of which 1 are started
+2019-01-25 15:49:30.053 INFO  org.apache.camel.spring.SpringCamelContext Line:3207 - Apache Camel 2.20.1 (CamelContext: camel-1) started in 43.327 seconds
+2019-01-25 15:49:30.076 INFO  com.asiainfo.ftp01.Ftp01Application Line:57  - Started Ftp01Application in 46.733 seconds (JVM running for 48.511)
+2019-01-25 15:49:35.784 INFO  com.asiainfo.ftp01.Ftp01Application Line:48  - Starting Ftp01Application on DESKTOP-KVT3N4R with PID 19012 (C:\Users\pansf\Documents\GitHub\ftp-01\target\classes started by pansf in C:\Users\pansf\Documents\GitHub\ftp-01)
+2019-01-25 15:49:35.785 INFO  com.asiainfo.ftp01.Ftp01Application Line:597 - The following profiles are active: prod
+2019-01-25 15:49:35.822 INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext Line:583 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1382945f: startup date [Fri Jan 25 15:49:35 CST 2019]; root of context hierarchy
+2019-01-25 15:49:37.056 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:327 - Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$b82588be] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-25 15:49:37.387 INFO  org.apache.camel.impl.converter.DefaultTypeConverter Line:66  - Type converters loaded (core: 192, classpath: 1)
+2019-01-25 15:49:37.885 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:58  - LiveReload server is running on port 35729
+2019-01-25 15:49:37.957 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:431 - Registering beans for JMX exposure on startup
+2019-01-25 15:49:37.981 INFO  org.apache.camel.spring.boot.RoutesCollector Line:276 - Loading additional Camel XML routes from: classpath:camel/*.xml
+2019-01-25 15:49:37.982 INFO  org.apache.camel.spring.boot.RoutesCollector Line:290 - Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+2019-01-25 15:49:37.987 INFO  org.apache.camel.spring.SpringCamelContext Line:3146 - Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2019-01-25 15:49:37.988 INFO  org.apache.camel.management.ManagedManagementStrategy Line:205 - JMX is enabled
+2019-01-25 15:49:38.181 INFO  org.apache.camel.spring.SpringCamelContext Line:3466 - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2019-01-25 15:50:08.231 INFO  com.asiainfo.ftp01.Ftp01Application Line:48  - Starting Ftp01Application on DESKTOP-KVT3N4R with PID 24248 (C:\Users\pansf\Documents\GitHub\ftp-01\target\classes started by pansf in C:\Users\pansf\Documents\GitHub\ftp-01)
+2019-01-25 15:50:08.232 INFO  com.asiainfo.ftp01.Ftp01Application Line:597 - The following profiles are active: prod
+2019-01-25 15:50:08.281 INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext Line:583 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@80e0ce8: startup date [Fri Jan 25 15:50:08 CST 2019]; root of context hierarchy
+2019-01-25 15:50:09.911 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:327 - Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$fa0591b7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-25 15:50:10.318 INFO  org.apache.camel.impl.converter.DefaultTypeConverter Line:66  - Type converters loaded (core: 192, classpath: 1)
+2019-01-25 15:50:11.021 INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer Line:58  - LiveReload server is running on port 35729
+2019-01-25 15:50:11.242 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:431 - Registering beans for JMX exposure on startup
+2019-01-25 15:50:11.271 INFO  org.apache.camel.spring.boot.RoutesCollector Line:276 - Loading additional Camel XML routes from: classpath:camel/*.xml
+2019-01-25 15:50:11.272 INFO  org.apache.camel.spring.boot.RoutesCollector Line:290 - Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+2019-01-25 15:50:11.278 INFO  org.apache.camel.spring.SpringCamelContext Line:3146 - Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2019-01-25 15:50:11.279 INFO  org.apache.camel.management.ManagedManagementStrategy Line:205 - JMX is enabled
+2019-01-25 15:50:11.514 INFO  org.apache.camel.spring.SpringCamelContext Line:3466 - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2019-01-25 15:50:54.593 INFO  org.apache.camel.spring.SpringCamelContext Line:4026 - Route: route1 started and consuming from: ftp://172.16.240.28:21/ftpc/ftpc270/outgoing?binary=true&delay=10s&filter=%23ftpDownloadFileFilter&localWorkDirectory=%2Fdata%2Fchenjiangtao%2Fftp-data-temp%2F&passiveMode=false&password=xxxxxx&username=ftpc270
+2019-01-25 15:50:54.593 INFO  org.apache.camel.spring.SpringCamelContext Line:3195 - Total 1 routes, of which 1 are started
+2019-01-25 15:50:54.595 INFO  org.apache.camel.spring.SpringCamelContext Line:3207 - Apache Camel 2.20.1 (CamelContext: camel-1) started in 43.317 seconds
+2019-01-25 15:50:54.605 INFO  com.asiainfo.ftp01.Ftp01Application Line:57  - Started Ftp01Application in 46.847 seconds (JVM running for 48.645)
+2019-01-25 15:50:54.609 INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext Line:984 - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@80e0ce8: startup date [Fri Jan 25 15:50:08 CST 2019]; root of context hierarchy
+2019-01-25 15:50:54.613 INFO  org.springframework.context.support.DefaultLifecycleProcessor Line:358 - Stopping beans in phase 2147483647
+2019-01-25 15:50:54.613 INFO  org.apache.camel.spring.SpringCamelContext Line:3497 - Apache Camel 2.20.1 (CamelContext: camel-1) is shutting down
+2019-01-25 15:50:54.614 INFO  org.apache.camel.impl.DefaultShutdownStrategy Line:195 - Starting to graceful shutdown 1 routes (timeout 300 seconds)
+2019-01-25 15:50:54.618 INFO  org.apache.camel.impl.DefaultShutdownStrategy Line:671 - Route: route1 shutdown complete, was consuming from: ftp://172.16.240.28:21/ftpc/ftpc270/outgoing?binary=true&delay=10s&filter=%23ftpDownloadFileFilter&localWorkDirectory=%2Fdata%2Fchenjiangtao%2Fftp-data-temp%2F&passiveMode=false&password=xxxxxx&username=ftpc270
+2019-01-25 15:50:54.619 INFO  org.apache.camel.impl.DefaultShutdownStrategy Line:260 - Graceful shutdown of 1 routes completed in 0 seconds
+2019-01-25 15:50:54.638 INFO  org.apache.camel.spring.SpringCamelContext Line:3588 - Apache Camel 2.20.1 (CamelContext: camel-1) uptime 43.361 seconds
+2019-01-25 15:50:54.638 INFO  org.apache.camel.spring.SpringCamelContext Line:3589 - Apache Camel 2.20.1 (CamelContext: camel-1) is shutdown in 0.025 seconds
+2019-01-25 15:50:54.639 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:449 - Unregistering JMX-exposed beans on shutdown
+2019-01-25 16:39:07.309 INFO  com.asiainfo.ftp01.Ftp01Application Line:48  - Starting Ftp01Application on DESKTOP-KVT3N4R with PID 23192 (C:\Users\pansf\Documents\GitHub\ftp-01\target\classes started by pansf in C:\Users\pansf\Documents\GitHub\ftp-01)
+2019-01-25 16:39:07.311 INFO  com.asiainfo.ftp01.Ftp01Application Line:597 - The following profiles are active: prod
+2019-01-25 16:39:07.348 INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext Line:583 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3384fc80: startup date [Fri Jan 25 16:39:07 CST 2019]; root of context hierarchy
+2019-01-25 16:39:08.597 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:327 - Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$bf52f76f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-25 16:39:08.953 INFO  org.apache.camel.impl.converter.DefaultTypeConverter Line:66  - Type converters loaded (core: 192, classpath: 1)
+2019-01-25 16:39:09.580 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:431 - Registering beans for JMX exposure on startup
+2019-01-25 16:39:09.603 INFO  org.apache.camel.spring.boot.RoutesCollector Line:276 - Loading additional Camel XML routes from: classpath:camel/*.xml
+2019-01-25 16:39:09.604 INFO  org.apache.camel.spring.boot.RoutesCollector Line:290 - Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+2019-01-25 16:39:09.610 INFO  org.apache.camel.spring.SpringCamelContext Line:3146 - Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2019-01-25 16:39:09.611 INFO  org.apache.camel.management.ManagedManagementStrategy Line:205 - JMX is enabled
+2019-01-25 16:39:09.842 INFO  org.apache.camel.spring.SpringCamelContext Line:3466 - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2019-01-25 16:39:09.852 INFO  org.apache.camel.component.file.remote.FtpEndpoint Line:109 - Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2019-01-25 16:39:09.853 INFO  org.apache.camel.component.file.remote.FtpEndpoint Line:115 - Using default memory based idempotent repository with cache max size: 1000
+2019-01-25 16:39:09.902 INFO  org.apache.camel.spring.boot.RoutesCollector Line:188 - Starting CamelMainRunController to ensure the main thread keeps running
+2019-01-25 16:39:22.090 INFO  com.asiainfo.ftp01.Ftp01Application Line:48  - Starting Ftp01Application on DESKTOP-KVT3N4R with PID 26904 (C:\Users\pansf\Documents\GitHub\ftp-01\target\classes started by pansf in C:\Users\pansf\Documents\GitHub\ftp-01)
+2019-01-25 16:39:22.091 INFO  com.asiainfo.ftp01.Ftp01Application Line:597 - The following profiles are active: dev
+2019-01-25 16:39:22.127 INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext Line:583 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@41c67e4c: startup date [Fri Jan 25 16:39:22 CST 2019]; root of context hierarchy
+2019-01-25 16:39:23.369 INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Line:327 - Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$cbc7cc83] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-25 16:39:23.686 INFO  org.apache.camel.impl.converter.DefaultTypeConverter Line:66  - Type converters loaded (core: 192, classpath: 1)
+2019-01-25 16:39:24.240 INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter Line:431 - Registering beans for JMX exposure on startup
+2019-01-25 16:39:24.264 INFO  org.apache.camel.spring.boot.RoutesCollector Line:276 - Loading additional Camel XML routes from: classpath:camel/*.xml
+2019-01-25 16:39:24.265 INFO  org.apache.camel.spring.boot.RoutesCollector Line:290 - Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+2019-01-25 16:39:24.270 INFO  org.apache.camel.spring.SpringCamelContext Line:3146 - Apache Camel 2.20.1 (CamelContext: camel-1) is starting
+2019-01-25 16:39:24.271 INFO  org.apache.camel.management.ManagedManagementStrategy Line:205 - JMX is enabled
+2019-01-25 16:39:24.460 INFO  org.apache.camel.spring.SpringCamelContext Line:3466 - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2019-01-25 16:39:24.469 INFO  org.apache.camel.component.file.remote.FtpEndpoint Line:109 - Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2019-01-25 16:39:24.470 INFO  org.apache.camel.component.file.remote.FtpEndpoint Line:115 - Using default memory based idempotent repository with cache max size: 1000
+2019-01-25 16:39:24.513 INFO  org.apache.camel.spring.boot.RoutesCollector Line:188 - Starting CamelMainRunController to ensure the main thread keeps running
