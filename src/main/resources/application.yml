@@ -1,0 +1,31 @@
+spring:
+  profiles:
+    active: prod
+---
+ftp:
+  info:
+    host: 47.92.72.146
+    port: 21
+    username: ftp
+    password: ftp
+    remotePath: ftpc/ftpc270/outgoing
+    localPath: d:\\ftp\\ftp-data-temp
+    compressPath: d:\\ftp\\data
+  quartz:
+    cron: 0 0/1 * * * ?
+spring:
+  profiles: dev
+---
+ftp:
+  info:
+    host: 172.16.240.28
+    port: 21
+    username: ftpc270
+    password: Fps_0606
+    remotePath: outgoing
+    localPath: /data/chenjiangtao/ftp-data-temp
+    compressPath: /data/chenjiangtao/data
+  quartz:
+    cron: 0 0/30 * * * ?
+spring:
+  profiles: prod
