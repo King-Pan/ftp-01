@@ -106,7 +106,12 @@ public class FtpUtils {
         log.info("ftp目录:{},ftp文件名：{}，本地目录:{}", remotePath, remoteFileName, localPath);
         boolean result = false;
         try {
-            ftpClient.changeWorkingDirectory("\\");
+            result = ftpClient.changeWorkingDirectory("~");
+            if(result){
+                log.info("切换到根目录成功:{}" ,ftpClient.printWorkingDirectory() );
+            }else{
+                log.info("切换到相对目录失败:{}" ,ftpClient.printWorkingDirectory() );
+            }
             result = ftpClient.changeWorkingDirectory(new String(remotePath.getBytes(LOCAL_CHARSET), SERVER_CHARSET));
             if (result) {
                 log.info("进入目录[" + remotePath + "]");

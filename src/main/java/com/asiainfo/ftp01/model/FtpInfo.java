@@ -26,7 +26,6 @@ public class FtpInfo {
      * 本地路径
      */
     private String localPath;
-
     /**
      * 解压路径
      */

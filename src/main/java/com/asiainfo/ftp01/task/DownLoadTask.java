@@ -39,7 +39,7 @@ public class DownLoadTask {
                 log.info("ftp文件信息:{}", fileInfo);
                 String localFileName = ftpInfo.getLocalPath() + File.separator + fileInfo.getName();
                 File localFile = new File(localFileName);
-                if (localFile.exists()) {
+                if (localFile.exists() || localFile.getName().endsWith(".verf")) {
                     log.info("本地已存在该文件:{}，不下载", localFileName);
                 } else {
                     ftpUtils.download(fileInfo.getPath(), fileInfo.getName(), ftpInfo.getLocalPath());

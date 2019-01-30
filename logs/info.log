@@ -1,0 +1,43 @@
+2019-01-30 09:19:16.304 INFO  com.asiainfo.ftp01.Ftp01Application Line:50  - Starting Ftp01Application on DESKTOP-KVT3N4R with PID 32240 (C:\Users\pansf\Documents\GitHub\ftp-01\target\classes started by pansf in C:\Users\pansf\Documents\GitHub\ftp-01)
+2019-01-30 09:19:16.311 INFO  com.asiainfo.ftp01.Ftp01Application Line:679 - The following profiles are active: prod
+2019-01-30 09:19:16.348 INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor Line:227 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-30 09:19:16.816 INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener Line:142 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-01-30 10:17:21.061 INFO  com.asiainfo.ftp01.Ftp01Application Line:50  - Starting Ftp01Application on DESKTOP-KVT3N4R with PID 23288 (C:\Users\pansf\Documents\GitHub\ftp-01\target\classes started by pansf in C:\Users\pansf\Documents\GitHub\ftp-01)
+2019-01-30 10:17:21.061 INFO  com.asiainfo.ftp01.Ftp01Application Line:679 - The following profiles are active: prod
+2019-01-30 10:17:21.252 INFO  com.asiainfo.ftp01.utils.SpringUtil Line:25  - ========ApplicationContext配置成功,在普通类可以通过调用SpringUtils.getAppContext()获取applicationContext对象,applicationContext=org.springframework.context.annotation.AnnotationConfigApplicationContext@7cee60e2, started on Wed Jan 30 10:17:21 CST 2019========
+2019-01-30 10:17:21.262 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Line:171 - Initializing ExecutorService 'taskScheduler'
+2019-01-30 10:17:21.288 INFO  com.asiainfo.ftp01.Ftp01Application Line:59  - Started Ftp01Application in 0.308 seconds (JVM running for 547.921)
+2019-01-30 10:17:21.290 INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener Line:56  - Condition evaluation unchanged
+2019-01-30 10:17:24.744 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Line:208 - Shutting down ExecutorService 'taskScheduler'
+2019-01-30 10:17:24.916 INFO  com.asiainfo.ftp01.Ftp01Application Line:50  - Starting Ftp01Application on DESKTOP-KVT3N4R with PID 23288 (C:\Users\pansf\Documents\GitHub\ftp-01\target\classes started by pansf in C:\Users\pansf\Documents\GitHub\ftp-01)
+2019-01-30 10:17:24.917 INFO  com.asiainfo.ftp01.Ftp01Application Line:679 - The following profiles are active: prod
+2019-01-30 10:17:25.079 INFO  com.asiainfo.ftp01.utils.SpringUtil Line:25  - ========ApplicationContext配置成功,在普通类可以通过调用SpringUtils.getAppContext()获取applicationContext对象,applicationContext=org.springframework.context.annotation.AnnotationConfigApplicationContext@671c3ba6, started on Wed Jan 30 10:17:24 CST 2019========
+2019-01-30 10:17:25.093 INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler Line:171 - Initializing ExecutorService 'taskScheduler'
+2019-01-30 10:17:25.128 INFO  com.asiainfo.ftp01.Ftp01Application Line:59  - Started Ftp01Application in 0.293 seconds (JVM running for 551.761)
+2019-01-30 10:17:25.129 INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener Line:56  - Condition evaluation unchanged
+2019-01-30 10:30:00.001 INFO  com.asiainfo.ftp01.task.DownLoadTask Line:33  - ftp路径:outgoing,本地下载路径:/data/chenjiangtao/ftp-data-temp,本地解压路径:/data/chenjiangtao/data
+2019-01-30 10:30:00.005 INFO  com.asiainfo.ftp01.utils.FtpUtils Line:50  - 开始连接ftp服务器172.16.240.28，端口：21
+2019-01-30 10:30:01.056 INFO  com.asiainfo.ftp01.utils.FtpUtils Line:76  - 传入remotePath:outgoing
+2019-01-30 11:00:00.002 INFO  com.asiainfo.ftp01.task.DownLoadTask Line:33  - ftp路径:outgoing,本地下载路径:/data/chenjiangtao/ftp-data-temp,本地解压路径:/data/chenjiangtao/data
+2019-01-30 11:00:00.003 INFO  com.asiainfo.ftp01.utils.FtpUtils Line:50  - 开始连接ftp服务器172.16.240.28，端口：21
+2019-01-30 11:00:21.005 INFO  com.asiainfo.ftp01.utils.FtpUtils Line:76  - 传入remotePath:outgoing
+2019-01-30 11:30:00.002 INFO  com.asiainfo.ftp01.task.DownLoadTask Line:33  - ftp路径:outgoing,本地下载路径:/data/chenjiangtao/ftp-data-temp,本地解压路径:/data/chenjiangtao/data
+2019-01-30 11:30:00.003 INFO  com.asiainfo.ftp01.utils.FtpUtils Line:50  - 开始连接ftp服务器172.16.240.28，端口：21
+2019-01-30 11:30:21.007 INFO  com.asiainfo.ftp01.utils.FtpUtils Line:76  - 传入remotePath:outgoing
+2019-01-30 12:00:00.001 INFO  com.asiainfo.ftp01.task.DownLoadTask Line:33  - ftp路径:outgoing,本地下载路径:/data/chenjiangtao/ftp-data-temp,本地解压路径:/data/chenjiangtao/data
+2019-01-30 12:00:00.002 INFO  com.asiainfo.ftp01.utils.FtpUtils Line:50  - 开始连接ftp服务器172.16.240.28，端口：21
+2019-01-30 12:00:21.007 INFO  com.asiainfo.ftp01.utils.FtpUtils Line:76  - 传入remotePath:outgoing
+2019-01-30 12:30:00.001 INFO  com.asiainfo.ftp01.task.DownLoadTask Line:33  - ftp路径:outgoing,本地下载路径:/data/chenjiangtao/ftp-data-temp,本地解压路径:/data/chenjiangtao/data
+2019-01-30 12:30:00.002 INFO  com.asiainfo.ftp01.utils.FtpUtils Line:50  - 开始连接ftp服务器172.16.240.28，端口：21
+2019-01-30 12:30:21.005 INFO  com.asiainfo.ftp01.utils.FtpUtils Line:76  - 传入remotePath:outgoing
+2019-01-30 13:00:00.001 INFO  com.asiainfo.ftp01.task.DownLoadTask Line:33  - ftp路径:outgoing,本地下载路径:/data/chenjiangtao/ftp-data-temp,本地解压路径:/data/chenjiangtao/data
+2019-01-30 13:00:00.002 INFO  com.asiainfo.ftp01.utils.FtpUtils Line:50  - 开始连接ftp服务器172.16.240.28，端口：21
+2019-01-30 13:00:21.009 INFO  com.asiainfo.ftp01.utils.FtpUtils Line:76  - 传入remotePath:outgoing
+2019-01-30 13:30:00.002 INFO  com.asiainfo.ftp01.task.DownLoadTask Line:33  - ftp路径:outgoing,本地下载路径:/data/chenjiangtao/ftp-data-temp,本地解压路径:/data/chenjiangtao/data
+2019-01-30 13:30:00.002 INFO  com.asiainfo.ftp01.utils.FtpUtils Line:50  - 开始连接ftp服务器172.16.240.28，端口：21
+2019-01-30 13:30:21.007 INFO  com.asiainfo.ftp01.utils.FtpUtils Line:76  - 传入remotePath:outgoing
+2019-01-30 14:00:00.003 INFO  com.asiainfo.ftp01.task.DownLoadTask Line:33  - ftp路径:outgoing,本地下载路径:/data/chenjiangtao/ftp-data-temp,本地解压路径:/data/chenjiangtao/data
+2019-01-30 14:00:00.003 INFO  com.asiainfo.ftp01.utils.FtpUtils Line:50  - 开始连接ftp服务器172.16.240.28，端口：21
+2019-01-30 14:00:21.005 INFO  com.asiainfo.ftp01.utils.FtpUtils Line:76  - 传入remotePath:outgoing

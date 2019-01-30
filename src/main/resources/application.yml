@@ -9,8 +9,8 @@ ftp:
     username: ftp
     password: ftp
     remotePath: ftpc/ftpc270/outgoing
-    localPath: d:\\ftp\\ftp-data-temp
-    compressPath: d:\\ftp\\data
+    localPath: d:\ftp\ftp-data-temp
+    compressPath: d:\ftp\data
   quartz:
     cron: 0 0/1 * * * ?
 spring:
